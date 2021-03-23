@@ -1,78 +1,1 @@
-<html>
-	<head>
-		<title>This is the Title of the Page</title>
-		<style>
-			.titles-container * {
-				color: gray;
-			}
-			/* Commento */
-			/* Type Selector */
-			h1 {color: red}
-			/* Descendant Selector */
-			body h1 {color: green}
-			/* Descendant Selector */
-			body div h1 {color: blue}
-			body div h1 {color: fuchsia} /* Questa vince perché viene letta dopo */
-			/* ID Selector */
-			#pippo {
-				color: yellow;
-				font-style: italic;
-				font-size: 5px;
-			}
-			/* Descendant Selector + ID Selector */
-			body #pippo {
-				color: brown;
-				font-size: 15px;
-			}
-			/* Prendo sia gli elementi con classe pluto che gli elementi con classe mario */
-			.pluto, .mario {
-				font-weight: bold;
-				font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-			}
-			body .pluto {
-				font-weight: 100;
-			}
-		</style>
-	</head>
-	<body>
-		<!-- Commento html <h1> CIAO </h1> -->
-		<!-- <div>
-			<h1 id="pippo" class="pluto">This is the ciao of the Page</h1>
-			<h1 id="pippo2" class="pluto">This is the Body of the Page</h1>
-			<h1 class="pluto">This is the Body of the Page</h1>
-			<h1 class="mario">This is the Body of the Page</h1>
-		</div> -->
-
-		<style>
-			.paperino {
-				color: green;
-			}
-			.paperino .ciccio {
-				color: blue;
-			}
-			.paperino.ciccio {
-				color: yellow;
-			}
-		</style>
-
-		<div>
-			<p>Ciao</p>
-			<div class="paperino ciccio">
-				
-				Ciao 2
-				
-				<p class="ciccio">Ciao 3</p>
-				<p class="ciccio">Ciao 4</p>
-				
-			</div>
-		</div>
-
-		<!-- <h1>This is the Body of the Page</h1>
-		
-		<h3>This is the Body of the Page</h3>  -->
-
-		<script>
-
-		</script>
-	</body>
-</html>
+<html>	<head>		<title>This is the Title of the Page</title>	</head>	<body>		<h1>This is the Body of the Page</h1>		<p>Anything within the body of a web page is displayed in the main browser window.</p>	</body></html>
