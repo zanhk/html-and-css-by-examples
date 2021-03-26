@@ -93,11 +93,6 @@ img.aligncenter {
     background: none;
 }
 
-ul {
-    padding: 0;
-    list-style: none;
-}
-
 ol li ul li {
     padding-left: 20px;
 }
